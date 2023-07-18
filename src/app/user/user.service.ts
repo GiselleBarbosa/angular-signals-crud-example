@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable, inject } from '@angular/core';
+import { Injectable, computed, inject } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { User } from './user';
 
@@ -14,4 +14,6 @@ export class UserService {
   private users$ = this.http.get<User[]>(this.userUrl);
 
   public users = toSignal(this.users$, { initialValue: [] as User[] });
+
+  public totalUsersCount = computed(() => this.users().length)
 }

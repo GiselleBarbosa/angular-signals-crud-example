@@ -1,6 +1,6 @@
 <section class="container" *ngIf="users().length">
   <div class="container__header">
-    <span>Users</span>
+    <span>Users ({{ totalUsersCount() }}) </span>
   </div>
   <table mat-table [dataSource]="users()" class="mat-elevation-z8">
     <ng-container

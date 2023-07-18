@@ -11,8 +11,16 @@
       "name": "Leia Organa",
       "email": "leia@example.com",
       "gender": "F"
-    }
+    },
+
+  {
+    "id": 3,
+    "name": "Giselle Barbosa",
+    "email": "selle@example.com",
+    "gender": "F"
+  }
   ],
+
   "tasks": [
     {
       "id": 1,
