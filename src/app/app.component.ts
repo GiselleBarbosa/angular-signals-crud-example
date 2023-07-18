@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -22,17 +22,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatDialogModule,
   ],
   templateUrl: './app.component.html',
-  styles: [
-    `
-      span {
-        cursor: pointer;
-      }
-      mat-toolbar {
-        justify-content: space-between;
-      }
-    `,
-  ],
+  styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  title = 'signals-crud-example';
-}
+export class AppComponent {}
