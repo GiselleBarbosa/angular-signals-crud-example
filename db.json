@@ -12,36 +12,38 @@
       "email": "leia@example.com",
       "gender": "F"
     },
-
-  {
-    "id": 3,
-    "name": "Giselle Barbosa",
-    "email": "selle@example.com",
-    "gender": "F"
-  }
-  ],
-
-  "tasks": [
-    {
-      "id": 1,
-      "name": "Destruir estrela da morte",
-      "description": "Destruir a estrela da morte para acabar com o Império",
-      "userId": 1,
-      "completed": false
-    },
-    {
-      "id": 2,
-      "name": "Desafiar Darth Vader",
-      "description": "Enfrentar Darth Vader e derrota-lo",
-      "userId": 1,
-      "completed": false
-    },
     {
       "id": 3,
-      "name": "Motivar resistência",
-      "description": "Não deixar a resistência perder a motivação na luta contra o império",
-      "userId": 2,
-      "completed": false
+      "name": "Giselle Barbosa",
+      "email": "selle@example.com",
+      "gender": "F"
+    }
+  ],
+  "tasks": [
+    {
+      "name": "New task",
+      "description": "New task description",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "name": "New task",
+      "description": "New task description",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "name": "New task",
+      "description": "New task description",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "name": "teste",
+      "description": "teste",
+      "completed": true,
+      "id": 8
     }
   ]
 }

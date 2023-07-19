@@ -1,4 +1,4 @@
-import { Task } from 'src/task/task';
+import { Task } from 'src/app/task/task.model';
 
 export interface User {
   id: number;

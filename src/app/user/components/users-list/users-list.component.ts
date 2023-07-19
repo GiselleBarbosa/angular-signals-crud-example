@@ -20,7 +20,7 @@ export class UsersListComponent {
   public fullColumns = ['id', 'name', 'email', 'gender', 'action'];
 
   public userService = inject(UserService);
-  
+
   public router = inject(Router);
 
   public users = this.userService.users;
